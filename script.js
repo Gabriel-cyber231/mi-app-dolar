@@ -2,7 +2,7 @@ function login() {
   const secret = document.getElementById("secret").value.trim().toLowerCase();
   const error = document.getElementById("login-error");
 
-  if (secret === "gabriel1745") {
+  if (secret === "gabriel1114") {
     document.getElementById("login-container").style.display = "none";
     document.getElementById("main-container").style.display = "block";
     fetchDollar();
